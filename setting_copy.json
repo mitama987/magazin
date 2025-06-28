@@ -1,0 +1,181 @@
+{
+    "window.commandCenter": 1,
+    "extensions.ignoreRecommendations": true,
+    "workbench.colorTheme": "Default Dark+",
+    "security.workspace.trust.untrustedFiles": "open",
+    "files.autoGuessEncoding": true,
+    "explorer.confirmDelete": false,
+    "git.ignoreRebaseWarning": true,
+    "cursor.chat.smoothStreaming": true,
+    "editor.mouseWheelZoom": true,
+    "explorer.confirmDragAndDrop": false,
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "window.restoreWindows": "preserve",
+    "files.exclude": {
+        "**/desktop.ini": true
+    },
+    "roo-cline.allowedCommands": [
+        "npm test",
+        "npm install",
+        "tsc",
+        "git log",
+        "git diff",
+        "git show",
+        "cd",
+        "ls",
+        "cp",
+        "npm",
+        "mkdir",
+        "npx",
+        "cmd"
+    ],
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "window.confirmSaveUntitledWorkspace": false,
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "git.autofetch": true,
+    "cursor.cpp.enablePartialAccepts": true,
+    "git.openRepositoryInParentFolders": "never",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "editor.largeFileOptimizations": false,
+    "gitdoc.filePattern": "**/*.py",
+    "gitdoc.ai.customInstructions": "",
+    "gitdoc.ai.model": "claude-3.5-sonnet",
+    "gitdoc.ai.useEmojis": true,
+    "gitdoc.enabled": true,
+    "github.copilot.chat.edits.suggestRelatedFilesFromGitHistory": false,
+    "git.enableSmartCommit": true,
+    "notebook.lineNumbers": "on",
+    "workbench.iconTheme": "vscode-icons",
+    "explorer.confirmPasteNative": false,
+    "markdown.styles": [
+        "https://raw.githubusercontent.com/sindresorhus/github-markdown-css/main/github-markdown-dark.css"
+    ],
+    "highlight.regexes": {
+        "((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *TODO(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
+            "filterFileRegex": ".*(?<!CHANGELOG.md)$",
+            "decorations": [
+                {
+                    "overviewRulerColor": "#ffcc00",
+                    "backgroundColor": "#ffcc00",
+                    "color": "#1f1f1f",
+                    "fontWeight": "bold"
+                },
+                {
+                    "backgroundColor": "#ffcc00",
+                    "color": "#1f1f1f"
+                }
+            ]
+        },
+        "((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *(?:FIXME|FIX|BUG|UGLY|DEBUG|HACK)(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
+            "filterFileRegex": ".*(?<!CHANGELOG.md)$",
+            "decorations": [
+                {
+                    "overviewRulerColor": "#cc0000",
+                    "backgroundColor": "#cc0000",
+                    "color": "#1f1f1f",
+                    "fontWeight": "bold"
+                },
+                {
+                    "backgroundColor": "#cc0000",
+                    "color": "#1f1f1f"
+                }
+            ]
+        },
+        "((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *(?:REVIEW|OPTIMIZE|TSC)(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
+            "filterFileRegex": ".*(?<!CHANGELOG.md)$",
+            "decorations": [
+                {
+                    "overviewRulerColor": "#00ccff",
+                    "backgroundColor": "#00ccff",
+                    "color": "#1f1f1f",
+                    "fontWeight": "bold"
+                },
+                {
+                    "backgroundColor": "#00ccff",
+                    "color": "#1f1f1f"
+                }
+            ]
+        },
+        "((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *(?:IDEA)(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
+            "filterFileRegex": ".*(?<!CHANGELOG.md)$",
+            "decorations": [
+                {
+                    "overviewRulerColor": "#cc00cc",
+                    "backgroundColor": "#cc00cc",
+                    "color": "#1f1f1f",
+                    "fontWeight": "bold"
+                },
+                {
+                    "backgroundColor": "#cc00cc",
+                    "color": "#1f1f1f"
+                }
+            ]
+        },
+        "^(#{1})(\\s+)(.+)$": {
+            "regexFlags": "gm",
+            "filterLanguageRegex": "markdown", 
+            "decorations": [
+                { 
+                    "color": "#FFFFFF",
+                    "fontWeight": "bold",
+                    "backgroundColor": "#F44336",
+                    "isWholeLine": true
+                },
+                { 
+                    "color": "#FFFFFF",
+                    "backgroundColor": "#F44336"
+                },
+                { 
+                    "color": "#FFFFFF",
+                    "fontWeight": "bold", 
+                    "fontSize": "1.3em",
+                    "backgroundColor": "#F44336"
+                }
+            ]
+        },
+        "^(#{2})(\\s+)(.+)$": {
+            "regexFlags": "gm",
+            "filterLanguageRegex": "markdown",
+            "decorations": [
+                { 
+                    "color": "#2C3E50",
+                    "fontWeight": "bold",
+                    "backgroundColor": "#FFCDD2",
+                    "isWholeLine": true
+                },
+                { 
+                    "color": "#2C3E50",
+                    "backgroundColor": "#FFCDD2"
+                },
+                { 
+                    "color": "#2C3E50",
+                    "fontWeight": "bold", 
+                    "fontSize": "1.2em",
+                    "backgroundColor": "#FFCDD2"
+                }
+            ]
+        },
+        "^(#{3,6})(\\s+)(.+)$": {
+            "regexFlags": "gm", 
+            "filterLanguageRegex": "markdown",
+            "decorations": [
+                { 
+                    "color": "#FFA500",
+                    "fontWeight": "bold",
+                    "backgroundColor": "#FFCDD2",
+                    "isWholeLine": true
+                },
+                { 
+                    "color": "#FFA500",
+                    "backgroundColor": "#FFCDD2"
+                },
+                { 
+                    "color": "#FFA500",
+                    "fontWeight": "bold", 
+                    "fontSize": "1.1em",
+                    "backgroundColor": "#FFCDD2"
+                }
+            ]
+        }
+    }
+}
